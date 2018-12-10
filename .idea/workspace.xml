@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="" />
+    <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,22 +24,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="1" />
           <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="1" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="398" />
+          <entry key="py" value="1231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="398" />
+          <entry key="Python" value="1231" />
         </counts>
       </usages-collector>
     </session>
@@ -45,10 +51,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="459">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
               <folding>
-                <element signature="e#25#61#0" expanded="true" />
+                <element signature="e#25#74#0" expanded="true" />
+                <marker date="1544451866144" expanded="true" signature="623:683" ph="..." />
+                <marker date="1544451866144" expanded="true" signature="679:681" ph="..." />
               </folding>
             </state>
           </provider>
@@ -62,10 +70,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+            <state relative-caret-position="339">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
                 <element signature="e#151#166#0" expanded="true" />
+                <marker date="1544451774469" expanded="true" signature="803:804" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,8 +83,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -89,6 +108,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -97,19 +119,20 @@
         <option value="$PROJECT_DIR$/testcases/test_dogceo_api.py" />
         <option value="$PROJECT_DIR$/tools/services.py" />
         <option value="$PROJECT_DIR$/tools/constants.py" />
+        <option value="$PROJECT_DIR$/tests/test_web.py" />
         <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/services.py" />
-        <option value="$PROJECT_DIR$/tests/test_web.py" />
         <option value="$PROJECT_DIR$/tests/test_api.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="1746" />
+    <option name="y" value="42" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -153,8 +176,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_api.test_request_response">
-    <configuration name="req (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="services" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,32 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:/Downloads/req.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="req" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Assessment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\PythonProjects\Assessment\testcases\req.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/services.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api.test_request_response" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api.test_request_list_sub_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,11 +209,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_request_response&quot;" />
+      <option name="_new_target" value="&quot;test_api.test_request_list_sub_breeds&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_api.test_request_response" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api.test_request_query_sub_breed_in_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +224,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_api.test_request_response&quot;" />
+      <option name="_new_target" value="&quot;test_api.test_request_query_sub_breed_in_breeds&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_api.test_request_random_image_in_breed" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Assessment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api.test_request_random_image_in_breed&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -242,19 +259,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.req" />
-      <item itemvalue="Python.req (1)" />
-      <item itemvalue="Python tests.pytest for tests.test_api.test_request_response" />
       <item itemvalue="Python tests.pytest in test_api.py" />
-      <item itemvalue="Python tests.pytest for test_api.test_request_response" />
+      <item itemvalue="Python tests.pytest for test_api.test_request_query_sub_breed_in_breeds" />
+      <item itemvalue="Python tests.pytest for test_api.test_request_list_sub_breeds" />
+      <item itemvalue="Python tests.pytest for test_api.test_request_random_image_in_breed" />
+      <item itemvalue="Python.services" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_api.test_request_response" />
         <item itemvalue="Python tests.pytest in test_api.py" />
-        <item itemvalue="Python tests.pytest for tests.test_api.test_request_response" />
-        <item itemvalue="Python.req" />
-        <item itemvalue="Python.req (1)" />
+        <item itemvalue="Python.services" />
+        <item itemvalue="Python tests.pytest for test_api.test_request_random_image_in_breed" />
+        <item itemvalue="Python tests.pytest for test_api.test_request_list_sub_breeds" />
+        <item itemvalue="Python tests.pytest for test_api.test_request_query_sub_breed_in_breeds" />
       </list>
     </recent_temporary>
   </component>
@@ -272,35 +289,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_dogceo_api_test_request_response - 2018.12.10 at 13h 10m 49s.xml">
-      <configuration name="pytest for test_dogceo_api.test_request_response" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 13h 14m 22s.xml">
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 00m 17s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 13h 17m 28s.xml">
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 00m 32s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 13h 19m 03s.xml">
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 01m 00s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 13h 23m 11s.xml">
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 03m 58s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 13h 29m 22s.xml">
+    <history-entry file="pytest_for_test_api_test_request_list_sub_breeds - 2018.12.10 at 15h 04m 44s.xml">
+      <configuration name="pytest for test_api.test_request_list_sub_breeds" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 05m 04s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 13h 38m 54s.xml">
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 07m 40s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_test_request_response - 2018.12.10 at 13h 40m 03s.xml">
-      <configuration name="pytest for test_api.test_request_response" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_test_request_random_image_in_breed - 2018.12.10 at 15h 08m 17s.xml">
+      <configuration name="pytest for test_api.test_request_random_image_in_breed" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 13h 40m 29s.xml">
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 16h 15m 08s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_test_request_response - 2018.12.10 at 13h 42m 23s.xml">
-      <configuration name="pytest for test_api.test_request_response" configurationId="tests" />
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 16h 19m 56s.xml">
+      <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -313,7 +330,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
@@ -322,7 +339,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
@@ -355,32 +372,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <element signature="e#151#166#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_web.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#151#166#0" expanded="true" />
+            <marker date="1544451774469" expanded="true" signature="803:804" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="459">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding>
-            <element signature="e#25#61#0" expanded="true" />
+            <element signature="e#25#74#0" expanded="true" />
+            <marker date="1544451866144" expanded="true" signature="623:683" ph="..." />
+            <marker date="1544451866144" expanded="true" signature="679:681" ph="..." />
           </folding>
         </state>
       </provider>
