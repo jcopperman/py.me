@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api.py" afterDir="false" />
-    </list>
+    <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +44,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="323">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="e#25#74#0" expanded="true" />
-                <marker date="1544451866144" expanded="true" signature="623:683" ph="..." />
-                <marker date="1544451866144" expanded="true" signature="679:681" ph="..." />
+                <marker date="1544452056359" expanded="true" signature="623:683" ph="..." />
+                <marker date="1544452056359" expanded="true" signature="679:681" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_web.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -74,7 +70,7 @@
               <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
                 <element signature="e#151#166#0" expanded="true" />
-                <marker date="1544451774469" expanded="true" signature="803:804" ph="..." />
+                <marker date="1544452056358" expanded="true" signature="803:804" ph="..." />
               </folding>
             </state>
           </provider>
@@ -176,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest in test_api.py">
     <configuration name="services" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,9 +285,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 00m 17s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 00m 32s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
@@ -319,6 +312,9 @@
     <history-entry file="pytest_in_test_api_py - 2018.12.10 at 16h 19m 56s.xml">
       <configuration name="pytest in test_api.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 16h 24m 31s.xml">
+      <configuration name="pytest in test_api.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,20 +327,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -380,9 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_web.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -396,22 +388,25 @@
           <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="e#151#166#0" expanded="true" />
-            <marker date="1544451774469" expanded="true" signature="803:804" ph="..." />
+            <marker date="1544452056358" expanded="true" signature="803:804" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="323">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="e#25#74#0" expanded="true" />
-            <marker date="1544451866144" expanded="true" signature="623:683" ph="..." />
-            <marker date="1544451866144" expanded="true" signature="679:681" ph="..." />
+            <marker date="1544452056359" expanded="true" signature="623:683" ph="..." />
+            <marker date="1544452056359" expanded="true" signature="679:681" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_web.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
