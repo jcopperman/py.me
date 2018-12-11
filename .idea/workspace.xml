@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="" />
+    <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jopperman.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_web.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,32 +19,45 @@
     <session id="-678937375">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="feature" value="1" />
+          <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="6" />
+          <entry key="py" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1231" />
+          <entry key="Python Console" value="14" />
+          <entry key="dummy" value="35" />
+          <entry key="feature" value="154" />
+          <entry key="json" value="12" />
+          <entry key="py" value="1671" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1231" />
+          <entry key="Cucumber" value="8" />
+          <entry key="JSON" value="12" />
+          <entry key="PLAIN_TEXT" value="181" />
+          <entry key="Python" value="1685" />
         </counts>
       </usages-collector>
     </session>
@@ -45,52 +65,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_api.py">
+        <entry file="file://$PROJECT_DIR$/tests/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state>
               <folding>
-                <element signature="e#25#74#0" expanded="true" />
-                <marker date="1544452056359" expanded="true" signature="623:683" ph="..." />
-                <marker date="1544452056359" expanded="true" signature="679:681" ph="..." />
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/settings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/addusers.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/webapp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_web.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/pages/usertable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services.py">
+        <entry file="file://$PROJECT_DIR$/tests/usertable_web_test_steps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="272">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#151#166#0" expanded="true" />
-                <marker date="1544452056358" expanded="true" signature="803:804" ph="..." />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constants.py">
+        <entry file="file://$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/helpers/services.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#151#166#0" expanded="true" />
+                <marker date="1544544897365" expanded="true" signature="808:809" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -115,16 +192,26 @@
         <option value="$PROJECT_DIR$/testcases/test_dogceo_api.py" />
         <option value="$PROJECT_DIR$/tools/services.py" />
         <option value="$PROJECT_DIR$/tools/constants.py" />
-        <option value="$PROJECT_DIR$/tests/test_web.py" />
         <option value="$PROJECT_DIR$/constants.py" />
-        <option value="$PROJECT_DIR$/services.py" />
         <option value="$PROJECT_DIR$/tests/test_api.py" />
+        <option value="$PROJECT_DIR$/selenium-driver.py" />
+        <option value="$PROJECT_DIR$/tests/pages/userwebtable.py" />
+        <option value="$PROJECT_DIR$/tests/test_web.py" />
+        <option value="$PROJECT_DIR$/steps/dog_ceo_api_test_steps.py" />
+        <option value="$PROJECT_DIR$/data/constants.py" />
+        <option value="$PROJECT_DIR$/services.py" />
+        <option value="$PROJECT_DIR$/pages/dashboard.py" />
+        <option value="$PROJECT_DIR$/features/dashboard.feature" />
+        <option value="$PROJECT_DIR$/data/settings.json" />
+        <option value="$PROJECT_DIR$/features/addusers.feature" />
+        <option value="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" />
+        <option value="$PROJECT_DIR$/pages/usertable.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1746" />
-    <option name="y" value="42" />
+    <option name="x" value="14" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
@@ -134,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,20 +232,50 @@
             <path>
               <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Assessment" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Assessment" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\Assessment\steps" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PythonProjects\Assessment\tests" />
+      <recent name="D:\PythonProjects\Assessment\helpers" />
+      <recent name="D:\PythonProjects\Assessment\data" />
       <recent name="D:\PythonProjects\Assessment" />
-      <recent name="D:\PythonProjects\Assessment\testcases" />
+      <recent name="D:\PythonProjects\Assessment\base" />
+      <recent name="D:\PythonProjects\Assessment\tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,8 +290,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_api.py">
-    <configuration name="services" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in dog_ceo_api_test_steps.py">
+    <configuration name="usertable_web_test_steps (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +299,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/services.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/usertable_web_test_steps.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +312,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api.test_request_list_sub_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for dog_ceo_api_test_steps.test_request_list_all_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +323,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_request_list_sub_breeds&quot;" />
+      <option name="_new_target" value="&quot;dog_ceo_api_test_steps.test_request_list_all_breeds&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api.test_request_query_sub_breed_in_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for dog_ceo_api_test_steps.test_request_query_sub_breed_in_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,11 +338,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_request_query_sub_breed_in_breeds&quot;" />
+      <option name="_new_target" value="&quot;dog_ceo_api_test_steps.test_request_query_sub_breed_in_breeds&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api.test_request_random_image_in_breed" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.dog_ceo_api_test_steps.test_request_list_all_breeds" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,11 +353,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api.test_request_random_image_in_breed&quot;" />
+      <option name="_new_target" value="&quot;tests.dog_ceo_api_test_steps.test_request_list_all_breeds&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_api.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in dog_ceo_api_test_steps.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,24 +368,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_api.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_api.py" />
-      <item itemvalue="Python tests.pytest for test_api.test_request_query_sub_breed_in_breeds" />
-      <item itemvalue="Python tests.pytest for test_api.test_request_list_sub_breeds" />
-      <item itemvalue="Python tests.pytest for test_api.test_request_random_image_in_breed" />
-      <item itemvalue="Python.services" />
+      <item itemvalue="Python tests.pytest in dog_ceo_api_test_steps.py" />
+      <item itemvalue="Python tests.pytest for tests.dog_ceo_api_test_steps.test_request_list_all_breeds" />
+      <item itemvalue="Python tests.pytest for dog_ceo_api_test_steps.test_request_query_sub_breed_in_breeds" />
+      <item itemvalue="Python.usertable_web_test_steps (1)" />
+      <item itemvalue="Python tests.pytest for dog_ceo_api_test_steps.test_request_list_all_breeds" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_api.py" />
-        <item itemvalue="Python.services" />
-        <item itemvalue="Python tests.pytest for test_api.test_request_random_image_in_breed" />
-        <item itemvalue="Python tests.pytest for test_api.test_request_list_sub_breeds" />
-        <item itemvalue="Python tests.pytest for test_api.test_request_query_sub_breed_in_breeds" />
+        <item itemvalue="Python tests.pytest in dog_ceo_api_test_steps.py" />
+        <item itemvalue="Python tests.pytest for dog_ceo_api_test_steps.test_request_list_all_breeds" />
+        <item itemvalue="Python.usertable_web_test_steps (1)" />
+        <item itemvalue="Python tests.pytest for dog_ceo_api_test_steps.test_request_query_sub_breed_in_breeds" />
+        <item itemvalue="Python tests.pytest for tests.dog_ceo_api_test_steps.test_request_list_all_breeds" />
       </list>
     </recent_temporary>
   </component>
@@ -285,35 +403,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 00m 32s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_for_dog_ceo_api_test_steps_test_request_list_all_breeds - 2018.12.11 at 18h 10m 17s.xml">
+      <configuration name="pytest for dog_ceo_api_test_steps.test_request_list_all_breeds" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 01m 00s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 12m 45s.xml">
+      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 03m 58s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 13m 41s.xml">
+      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_test_request_list_sub_breeds - 2018.12.10 at 15h 04m 44s.xml">
-      <configuration name="pytest for test_api.test_request_list_sub_breeds" configurationId="tests" />
+    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 15m 00s.xml">
+      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 05m 04s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_for_dog_ceo_api_test_steps_test_request_query_sub_breed_in_breeds - 2018.12.11 at 18h 15m 18s.xml">
+      <configuration name="pytest for dog_ceo_api_test_steps.test_request_query_sub_breed_in_breeds" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 15h 07m 40s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 15m 33s.xml">
+      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_test_request_random_image_in_breed - 2018.12.10 at 15h 08m 17s.xml">
-      <configuration name="pytest for test_api.test_request_random_image_in_breed" configurationId="tests" />
+    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 18m 15s.xml">
+      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 16h 15m 08s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 18m 41s.xml">
+      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 16h 19m 56s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_for_dog_ceo_api_test_steps_test_request_list_all_breeds - 2018.12.11 at 18h 43m 59s.xml">
+      <configuration name="pytest for dog_ceo_api_test_steps.test_request_list_all_breeds" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_api_py - 2018.12.10 at 16h 24m 31s.xml">
-      <configuration name="pytest in test_api.py" configurationId="tests" />
+    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 44m 11s.xml">
+      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -326,20 +444,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939914" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -360,13 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/req.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/req.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -375,38 +488,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
+    <entry file="file://D:/Downloads/4-login-page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services.py">
+    <entry file="file://D:/Downloads/5-login-page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="475">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/7-selenium-driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1106" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/7-selenium-driver (1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="32" lean-forward="true" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/7-login-page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" lean-forward="true" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Downloads/7-login-tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userwebtable.py" />
+    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py" />
+    <entry file="file://$PROJECT_DIR$/tests/test_web.py" />
+    <entry file="file://D:/Downloads/1-register-courses-csv-data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_api.py" />
+    <entry file="file://$PROJECT_DIR$/tests/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/webapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#151#166#0" expanded="true" />
-            <marker date="1544452056358" expanded="true" signature="803:804" ph="..." />
+            <marker date="1544544897365" expanded="true" signature="808:809" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_api.py">
+    <entry file="file://$PROJECT_DIR$/data/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#25#74#0" expanded="true" />
-            <marker date="1544452056359" expanded="true" signature="623:683" ph="..." />
-            <marker date="1544452056359" expanded="true" signature="679:681" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_web.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/data/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/addusers.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/usertable_web_test_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/usertable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
