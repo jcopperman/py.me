@@ -5,7 +5,7 @@
 
 #### Prerequisites:
  - Python3 installed on OS
- - Firefox is the default test browser for this project and will need to be installed if the settings file is not updated with the user's preferred browser
+ - Firefox is the default test browser if settings file is not updated with the user's preferred browser
 
 #### Usage:
 - run ```pip install pytest``` if not installed already

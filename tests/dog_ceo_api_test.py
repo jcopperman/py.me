@@ -3,7 +3,7 @@ from behave import given, then
 from nose.tools import assert_equals, assert_true
 
 # Local imports...
-from helpers.services import get_dogs, get_sub_breed, get_random_image_in_sub_breed
+from tests.api import get_dogs, get_sub_breed, get_random_image_in_sub_breed
 from data.constants import BREED_QUERY
 
 
