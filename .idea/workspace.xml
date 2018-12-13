@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dog_ceo_api_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/rep.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/report1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/report2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/reportceo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/usertable_web_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/usertable_web_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/geckodriver.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +49,7 @@
           <entry key="feature" value="1" />
           <entry key="html" value="3" />
           <entry key="json" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="35" />
         </counts>
       </usages-collector>
@@ -64,7 +57,7 @@
         <counts>
           <entry key="HTML" value="3" />
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="35" />
         </counts>
@@ -75,6 +68,7 @@
           <entry key="dummy" value="35" />
           <entry key="feature" value="240" />
           <entry key="json" value="35" />
+          <entry key="md" value="870" />
           <entry key="py" value="2837" />
         </counts>
       </usages-collector>
@@ -82,6 +76,7 @@
         <counts>
           <entry key="Cucumber" value="94" />
           <entry key="JSON" value="35" />
+          <entry key="Markdown" value="870" />
           <entry key="PLAIN_TEXT" value="181" />
           <entry key="Python" value="2851" />
         </counts>
@@ -90,11 +85,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/settings.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="272">
+                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -123,7 +130,7 @@
         <entry file="file://$USER_HOME$/Downloads/py3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="101" />
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -158,7 +165,7 @@
             <state relative-caret-position="-69">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <marker date="1544716764949" expanded="true" signature="797:798" ph="..." />
+                <marker date="1544721195047" expanded="true" signature="797:798" ph="..." />
               </folding>
             </state>
           </provider>
@@ -215,6 +222,7 @@
         <option value="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" />
         <option value="$PROJECT_DIR$/tests/dog_ceo_api_test.py" />
         <option value="$PROJECT_DIR$/tests/usertable_web_test.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -237,31 +245,6 @@
             <path>
               <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assessment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -500,14 +483,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/req.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Downloads/4-login-page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -626,7 +601,7 @@
     <entry file="file://$USER_HOME$/Downloads/py3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="101" />
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="101" />
         </state>
       </provider>
     </entry>
@@ -659,7 +634,7 @@
         <state relative-caret-position="-69">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <marker date="1544716764949" expanded="true" signature="797:798" ph="..." />
+            <marker date="1544721195047" expanded="true" signature="797:798" ph="..." />
           </folding>
         </state>
       </provider>
@@ -696,7 +671,17 @@
     <entry file="file://$PROJECT_DIR$/data/settings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="272">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
