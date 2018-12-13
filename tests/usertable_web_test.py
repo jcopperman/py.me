@@ -42,7 +42,7 @@ class UserTablePage(unittest.TestCase):
         driver.find_element_by_name("Mobilephone").send_keys("0825555")
         driver.find_element_by_css_selector("button.btn.btn-success").click()
 
-        time.sleep(10)
+        time.sleep(3)
 
         self.assertEqual("FName1", driver.find_element_by_css_selector("td.smart-table-data-cell").text)
 
