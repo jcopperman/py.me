@@ -33,4 +33,4 @@ def test_request_list_sub_breeds():
 
 @then(u'Perform an API request to produce a random image / link for the sub-breed “golden”')
 def test_request_random_image():
-    assert_equals(200, breed_random_image.status_code)
+    assert_equals(300, breed_random_image.status_code)

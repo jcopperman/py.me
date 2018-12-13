@@ -6,9 +6,11 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re, uuid
+from nose.tools import assert_equals, assert_true
+from behave import given, then
 
 
-class Tmp(unittest.TestCase):
+class UserTablePage(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Firefox()
@@ -17,9 +19,10 @@ class Tmp(unittest.TestCase):
         self.verificationErrors = []
         self.accept_next_alert = True
 
-    def test_tmp(self):
+    @given(u'Add user')
+    def test_add_user(self):
 
-        username = uuid.uuid4;
+        username = uuid.uuid4
 
         driver = self.driver
         driver.get(self.base_url + "/angularjs-protractor/webtables/")
@@ -39,6 +42,10 @@ class Tmp(unittest.TestCase):
         driver.find_element_by_name("Mobilephone").clear()
         driver.find_element_by_name("Mobilephone").send_keys("0825555")
         driver.find_element_by_css_selector("button.btn.btn-success").click()
+
+        time.sleep(10)
+
+        self.assertEqual("FName1", driver.find_element_by_css_selector("td.smart-table-data-cell").text)
 
     def is_element_present(self, how, what):
         try:

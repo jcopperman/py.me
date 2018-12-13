@@ -1,6 +1,5 @@
 {
-    "url": "http://www.way2automation.com/angularjs-protractor/webtables/",
+    "url": "http://www.way2automation.com/",
     "title": "Protractor practice website - WebTables",
-    "browser": "chrome",
-    "user": ""
+    "browser": "firefox"
 }

@@ -6,7 +6,7 @@ except ImportError:
 
 # Third-party imports...
 import requests
-import json
+
 
 # Local imports...
 from data.constants import BASE_URL, BREED_QUERY
