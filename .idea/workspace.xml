@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/addusers.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/webapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/webapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/usertable.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/usertable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/usertable_web_test_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/usertable_web_test_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/usertable_web_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/usertable_web_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +48,7 @@
           <entry key="dummy" value="35" />
           <entry key="feature" value="240" />
           <entry key="json" value="24" />
-          <entry key="py" value="2426" />
+          <entry key="py" value="2485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -64,7 +56,7 @@
           <entry key="Cucumber" value="94" />
           <entry key="JSON" value="24" />
           <entry key="PLAIN_TEXT" value="181" />
-          <entry key="Python" value="2440" />
+          <entry key="Python" value="2499" />
         </counts>
       </usages-collector>
     </session>
@@ -86,20 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/settings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/usertable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -119,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/usertable_web_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="408">
+              <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -316,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tmp">
+  <component name="RunManager" selected="Python tests.pytest for usertable_web_test.Tmp.test_tmp">
     <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -359,27 +339,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="usertable" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Assessment" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/usertable.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="usertable_web_test_steps (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -401,7 +360,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in dog_ceo_api_test_steps.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for usertable_web_test.Tmp" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,24 +371,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;usertable_web_test.Tmp&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for usertable_web_test.Tmp.test_tmp" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Assessment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;usertable_web_test.Tmp.test_tmp&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in dog_ceo_api_test_steps.py" />
       <item itemvalue="Python.usertable_web_test_steps (1)" />
-      <item itemvalue="Python.usertable" />
       <item itemvalue="Python.common" />
       <item itemvalue="Python.tmp" />
+      <item itemvalue="Python tests.pytest for usertable_web_test.Tmp" />
+      <item itemvalue="Python tests.pytest for usertable_web_test.Tmp.test_tmp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for usertable_web_test.Tmp.test_tmp" />
+        <item itemvalue="Python tests.pytest for usertable_web_test.Tmp" />
         <item itemvalue="Python.tmp" />
         <item itemvalue="Python.common" />
         <item itemvalue="Python.usertable_web_test_steps (1)" />
-        <item itemvalue="Python tests.pytest in dog_ceo_api_test_steps.py" />
-        <item itemvalue="Python.usertable" />
       </list>
     </recent_temporary>
   </component>
@@ -447,18 +421,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_dog_ceo_api_test_steps_test_request_list_all_breeds - 2018.12.11 at 18h 43m 59s.xml">
-      <configuration name="pytest for dog_ceo_api_test_steps.test_request_list_all_breeds" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 18h 44m 11s.xml">
-      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.11 at 19h 42m 04s.xml">
-      <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_dog_ceo_api_test_steps_test_request_random_image - 2018.12.12 at 18h 05m 09s.xml">
-      <configuration name="pytest for dog_ceo_api_test_steps.test_request_random_image" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_dog_ceo_api_test_steps_test_request_random_image - 2018.12.12 at 18h 05m 25s.xml">
       <configuration name="pytest for dog_ceo_api_test_steps.test_request_random_image" configurationId="tests" />
     </history-entry>
@@ -477,6 +439,18 @@
     <history-entry file="pytest_in_dog_ceo_api_test_steps_py - 2018.12.13 at 10h 14m 00s.xml">
       <configuration name="pytest in dog_ceo_api_test_steps.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_usertable_web_test_Tmp - 2018.12.13 at 17h 33m 25s.xml">
+      <configuration name="pytest for usertable_web_test.Tmp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_usertable_web_test_Tmp_test_tmp - 2018.12.13 at 17h 34m 34s.xml">
+      <configuration name="pytest for usertable_web_test.Tmp.test_tmp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_usertable_web_test_Tmp_test_tmp - 2018.12.13 at 17h 40m 25s.xml">
+      <configuration name="pytest for usertable_web_test.Tmp.test_tmp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_usertable_web_test_Tmp_test_tmp - 2018.12.13 at 17h 46m 05s.xml">
+      <configuration name="pytest for usertable_web_test.Tmp.test_tmp" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,12 +465,12 @@
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helpers/services.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -662,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/usertable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/usertable_web_test_steps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -693,10 +650,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/usertable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/usertable_web_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="408">
+          <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>

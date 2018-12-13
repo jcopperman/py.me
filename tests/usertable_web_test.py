@@ -5,18 +5,22 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
-import unittest, time, re
+import unittest, time, re, uuid
 
 
 class Tmp(unittest.TestCase):
+
     def setUp(self):
-        self.driver = webdriver.chrome()
+        self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.base_url = "http://www.way2automation.com/"
         self.verificationErrors = []
         self.accept_next_alert = True
 
     def test_tmp(self):
+
+        username = uuid.uuid4;
+
         driver = self.driver
         driver.get(self.base_url + "/angularjs-protractor/webtables/")
         driver.find_element_by_xpath("//button[@type='add']").click()
@@ -25,7 +29,7 @@ class Tmp(unittest.TestCase):
         driver.find_element_by_name("LastName").clear()
         driver.find_element_by_name("LastName").send_keys("LName1")
         driver.find_element_by_name("UserName").clear()
-        driver.find_element_by_name("UserName").send_keys("user")
+        driver.find_element_by_name("UserName").send_keys(str(username))
         driver.find_element_by_name("Password").clear()
         driver.find_element_by_name("Password").send_keys("Pass1234")
         driver.find_element_by_name("optionsRadios").click()
