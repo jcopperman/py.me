@@ -1,5 +1,6 @@
 {
-    "url": "https://dog.ceo/dog-api/",
+    "url": "http://www.way2automation.com/angularjs-protractor/webtables/",
+    "title": "Protractor practice website - WebTables",
     "browser": "chrome",
     "user": ""
 }

@@ -1,16 +1,18 @@
 # Third party libraries...
-from behave import given, when, then
+from behave import given, then
 from nose.tools import assert_equals, assert_true
 
 # Local imports...
 from helpers.services import get_dogs, get_sub_breed, get_random_image_in_sub_breed
 from data.constants import BREED_QUERY
 
+
 # Variables...
 response = get_dogs()
 query_breed = get_sub_breed()
 breed_random_image = get_random_image_in_sub_breed()
 breed = BREED_QUERY
+regex_pattern = response.text;
 
 
 # Tests...

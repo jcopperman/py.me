@@ -1,32 +1,19 @@
 from behave import given, when, then
-from pages.usertable import dashboard
+from pages.usertable import usertable
 
 
-@then(u'Dashboard Status shows correct values for row "{row}"')
-def step_impl_dashboard_status(context, row):
-    dashboard.verify_status(row)
+@then(u'Verify title of loaded page')
+def step_impl_verify_title():
+    usertable.verify_title()
+
+@when(u'User is added to the table')
+def step_impl_add_user():
+    usertable.add_user
+
+@then(u'Then the username is unique')
+def step_impl_verify_user_is_unique():
+    usertable.verify_user
 
 
-@then(u'Clicking on Status Refresh should refresh status component')
-def step_impl_status_refresh(context):
-    dashboard.verify_refresh()
 
 
-@then(u'Dashboard Battery shows Battery or AC Power with correct icon.')
-def step_impl_battery_status(context):
-    dashboard.verify_battery_status()
-
-
-@then(u'Clicking on Battery Refresh should refresh battery component')
-def step_impl_battery_refresh(context):
-    dashboard.verify_battery_refresh()
-
-
-@then(u'Dashboard Detector Settings shows correct values for row "{row}"')
-def step_impl_detector_settings(context, row):
-    dashboard.veify_detector_setting(row)
-
-
-@then(u'Dashboard GPS shows correct values for row "{row}"')
-def step_impl_gps_settings(context, row):
-    dashboard.verify_gps_setting(row)
