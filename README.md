@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/{jcopperman}/{py.me}.png?branch=master)](https://travis-ci.org/{jcopperman}/{py.me})
 # py.me
 
 ### About py.me: 

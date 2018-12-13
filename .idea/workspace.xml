@@ -44,21 +44,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="2" />
           <entry key="feature" value="1" />
           <entry key="html" value="5" />
           <entry key="json" value="1" />
           <entry key="log" value="1" />
           <entry key="md" value="3" />
-          <entry key="py" value="36" />
+          <entry key="py" value="37" />
+          <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="5" />
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="36" />
+          <entry key="Python" value="37" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -67,7 +71,7 @@
           <entry key="dummy" value="44" />
           <entry key="feature" value="240" />
           <entry key="json" value="35" />
-          <entry key="md" value="940" />
+          <entry key="md" value="972" />
           <entry key="py" value="2897" />
         </counts>
       </usages-collector>
@@ -75,7 +79,7 @@
         <counts>
           <entry key="Cucumber" value="94" />
           <entry key="JSON" value="35" />
-          <entry key="Markdown" value="940" />
+          <entry key="Markdown" value="972" />
           <entry key="PLAIN_TEXT" value="190" />
           <entry key="Python" value="2911" />
         </counts>
@@ -99,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/usertable_web_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="205">
               <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
                 <marker date="1544723246689" expanded="true" signature="687:693" ph="..." />
@@ -108,14 +112,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/assets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4743" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1544721195047" expanded="true" signature="797:798" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor>
+                <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="38" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -163,6 +200,7 @@
         <option value="$PROJECT_DIR$/tests/usertable_web_test.py" />
         <option value="$PROJECT_DIR$/tests/dog_ceo_api_test.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.travis.yaml" />
       </list>
     </option>
   </component>
@@ -189,12 +227,23 @@
             <path>
               <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assessment" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assessment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assessment" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -599,6 +648,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4743" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -621,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/usertable_web_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="205">
           <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
             <marker date="1544723246689" expanded="true" signature="687:693" ph="..." />
@@ -632,10 +689,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <first_editor>
+            <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="38" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
