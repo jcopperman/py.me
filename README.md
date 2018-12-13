@@ -4,7 +4,7 @@
  I am an API and Selenium automation assessment project written in Python3
 
 #### Prerequisites:
- - Python3 installed on OS
+ - Python3 installed on OS - [Installation guide here](https://realpython.com/installing-python/)
  - Firefox is the default test browser if settings file is not updated with the user's preferred browser
 
 #### Usage:
