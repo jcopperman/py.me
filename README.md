@@ -3,7 +3,7 @@
 ### About py.me: 
  I am an API and Selenium automation assessment project written in Python3
 
-####Prerequisites:
+#### Prerequisites:
  - Python3 installed on OS
  - Firefox is the default test browser for this project and will need to be installed if the settings file is not updated with the user's preferred browser
 

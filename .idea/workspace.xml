@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/geckodriver.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
           <entry key="dummy" value="35" />
           <entry key="feature" value="240" />
           <entry key="json" value="35" />
-          <entry key="md" value="870" />
+          <entry key="md" value="871" />
           <entry key="py" value="2837" />
         </counts>
       </usages-collector>
@@ -76,7 +74,7 @@
         <counts>
           <entry key="Cucumber" value="94" />
           <entry key="JSON" value="35" />
-          <entry key="Markdown" value="870" />
+          <entry key="Markdown" value="871" />
           <entry key="PLAIN_TEXT" value="181" />
           <entry key="Python" value="2851" />
         </counts>
@@ -98,8 +96,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -461,7 +459,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32725322" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -678,8 +676,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
