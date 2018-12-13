@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="11de0576-6c52-4106-8bdd-c94dbf4c1516" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/services.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dog_ceo_api_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/rep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/report1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/report2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/reportceo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/usertable_web_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/usertable_web_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/usertable_web_test_steps.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +75,7 @@
           <entry key="dummy" value="35" />
           <entry key="feature" value="240" />
           <entry key="json" value="35" />
-          <entry key="py" value="2835" />
+          <entry key="py" value="2837" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -80,30 +83,18 @@
           <entry key="Cucumber" value="94" />
           <entry key="JSON" value="35" />
           <entry key="PLAIN_TEXT" value="181" />
-          <entry key="Python" value="2849" />
+          <entry key="Python" value="2851" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/settings.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -111,8 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/usertable_web_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="-902">
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -138,21 +128,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/dog_ceo_api_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="70" />
+            <state relative-caret-position="595">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding>
                 <element signature="e#27#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/report1.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -228,6 +213,7 @@
         <option value="$PROJECT_DIR$/pages/usertable_page.py" />
         <option value="$PROJECT_DIR$/data/settings.json" />
         <option value="$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py" />
+        <option value="$PROJECT_DIR$/tests/dog_ceo_api_test.py" />
         <option value="$PROJECT_DIR$/tests/usertable_web_test.py" />
       </list>
     </option>
@@ -392,7 +378,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in dog_ceo_api_test_steps.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in dog_ceo_api_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Assessment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -403,7 +389,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/dog_ceo_api_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -412,11 +398,11 @@
       <item itemvalue="Python tests.pytest for usertable_web_test.Tmp" />
       <item itemvalue="Python tests.pytest for usertable_web_test.Tmp.test_tmp" />
       <item itemvalue="Python.tmp" />
-      <item itemvalue="Python tests.pytest in dog_ceo_api_test_steps.py" />
+      <item itemvalue="Python tests.pytest in dog_ceo_api_test.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in dog_ceo_api_test_steps.py" />
+        <item itemvalue="Python tests.pytest in dog_ceo_api_test.py" />
         <item itemvalue="Python tests.pytest for usertable_web_test.Tmp.test_tmp" />
         <item itemvalue="Python tests.pytest for usertable_web_test.Tmp" />
         <item itemvalue="Python.tmp" />
@@ -481,7 +467,7 @@
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -492,7 +478,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -627,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/report1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -648,16 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,23 +664,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/dog_ceo_api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#27#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/usertable_web_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="-902">
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dog_ceo_api_test_steps.py">
+    <entry file="file://$PROJECT_DIR$/tests/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="70" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#27#63#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
