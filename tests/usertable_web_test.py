@@ -23,28 +23,35 @@ class UserTablePage(unittest.TestCase):
 
         username = uuid.uuid4
 
-        driver = self.driver
-        driver.get(self.base_url + "/angularjs-protractor/webtables/")
-        driver.find_element_by_xpath("//button[@type='add']").click()
-        driver.find_element_by_name("FirstName").clear()
-        driver.find_element_by_name("FirstName").send_keys("FName1")
-        driver.find_element_by_name("LastName").clear()
-        driver.find_element_by_name("LastName").send_keys("LName1")
-        driver.find_element_by_name("UserName").clear()
-        driver.find_element_by_name("UserName").send_keys(str(username))
-        driver.find_element_by_name("Password").clear()
-        driver.find_element_by_name("Password").send_keys("Pass1234")
-        driver.find_element_by_name("optionsRadios").click()
-        Select(driver.find_element_by_name("RoleId")).select_by_visible_text("Admin")
-        driver.find_element_by_name("Email").clear()
-        driver.find_element_by_name("Email").send_keys("admin@mail.com")
-        driver.find_element_by_name("Mobilephone").clear()
-        driver.find_element_by_name("Mobilephone").send_keys("0825555")
-        driver.find_element_by_css_selector("button.btn.btn-success").click()
+        users = ['FName1, "FName2']
 
-        time.sleep(3)
+        for x in users:
+            driver = self.driver
+            driver.get(self.base_url + "/angularjs-protractor/webtables/")
+            driver.find_element_by_xpath("//button[@type='add']").click()
+            driver.find_element_by_name("FirstName").clear()
+            driver.find_element_by_name("FirstName").send_keys("FName1")
+            driver.find_element_by_name("LastName").clear()
+            driver.find_element_by_name("LastName").send_keys("LName1")
+            driver.find_element_by_name("UserName").clear()
+            driver.find_element_by_name("UserName").send_keys(str(username))
+            driver.find_element_by_name("Password").clear()
+            driver.find_element_by_name("Password").send_keys("Pass1234")
+            driver.find_element_by_name("optionsRadios").click()
+            Select(driver.find_element_by_name("RoleId")).select_by_visible_text("Admin")
+            driver.find_element_by_name("Email").clear()
+            driver.find_element_by_name("Email").send_keys("admin@mail.com")
+            driver.find_element_by_name("Mobilephone").clear()
+            driver.find_element_by_name("Mobilephone").send_keys("0825555")
+            driver.find_element_by_css_selector("button.btn.btn-success").click()
 
-        self.assertEqual("FName1", driver.find_element_by_css_selector("td.smart-table-data-cell").text)
+            time.sleep(3)
+            self.assertEqual("FName1", driver.find_element_by_css_selector("td.smart-table-data-cell").text)
+            self.assertEqual("FName1", driver.find_element_by_css_selector("td.smart-table-data-cell").text)
+            if x == "FName2":
+                    break
+
+
 
     def is_element_present(self, how, what):
         try:
