@@ -1,0 +1,20 @@
+<users>
+    <user>
+        <firstname>FName1</firstname>
+        <lastname>LName1</lastname>
+        <password>Pass1</password>
+        <customer>Company AAA</customer>
+        <role>Admin</role>
+        <email>admin@mail.com</email>
+        <cell>082555</cell>
+    </user>
+    <user>
+        <firstname>FName2</firstname>
+        <lastname>LName2</lastname>
+        <password>Pass2</password>
+        <customer>Company BBB</customer>
+        <role>Customer</role>
+        <email>customer@mail.com</email>
+        <cell>083444</cell>
+    </user>
+</users>

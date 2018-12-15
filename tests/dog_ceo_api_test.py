@@ -12,7 +12,7 @@ response = get_dogs()
 query_breed = get_sub_breed()
 breed_random_image = get_random_image_in_sub_breed()
 breed = BREED_QUERY
-regex_pattern = response.text;
+regex_pattern = response.text
 
 
 # Tests...

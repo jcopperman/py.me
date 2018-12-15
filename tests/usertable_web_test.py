@@ -53,6 +53,7 @@ class UserTablePage(unittest.TestCase):
 
 
 
+
     def is_element_present(self, how, what):
         try:
             self.driver.find_element(by=how, value=what)
