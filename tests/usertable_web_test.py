@@ -6,6 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re, uuid
 from nose.tools import assert_equals, assert_true
+from xml.dom import minidom
 from behave import given, then
 
 
@@ -23,7 +24,7 @@ class UserTablePage(unittest.TestCase):
 
         username = uuid.uuid4
 
-        users = ['FName1, "FName2']
+        users = minidom.parse('data.users.xml')
 
         for x in users:
             driver = self.driver
