@@ -1,6 +1,11 @@
 [![Build Status](https://travis-ci.org/jcopperman/py.me.png?branch=master)](https://travis-ci.org/{jcopperman}/{py.me})
 # py.me
 
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+
 ### About py.me: 
  I am an API and Selenium automation assessment project written in Python3
 
